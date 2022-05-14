@@ -1,0 +1,95 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<metadata keywords="anniversaire">
+	<title>L3INF</title>
+	<script type="text/javascript" language="javascript">
+	</script>
+	<script type="text/javascript" language="javascript">
+		function datenow(){
+		 var datelit=Date();
+		  var datetime=Date.now;
+		  alert('sachez que la date de ce jour est : ' + datelit + '/')
+		}
+	</script>
+</head>
+    <body style="text-align: center; background-color: red(700, 80, 200); background-attachment: fixed;background-repeat: no-repeat; background-position:top left; border: 15px blue solid;border-radius: 101px">
+        <h1>FACULTE DES SCIENCES</h1>
+        <P>bienvenu sur notre page<br/> veillez entrer vos information</p>
+        <form name="form1">
+        <p>votre nom: <input type="text" name="nom"/></p>
+        <p>votre prenom: <input type="text" name="prenom"/></p>
+        <p>votre pseudo: <input type="text" name="pseudo" /> 
+        </p>
+        <p>votre adresse electronique: <input type="email" name="useremail"/></p>
+        <p>
+        Entrez votre mot de passe:
+        <input type="password" name="pseudo" />
+        </p> 
+        <p> Genre:
+        <select name="genre" id="sexe">
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+            <option value="autre">AUTRE</option>
+        </select>
+        </p>
+        <p>veuillez vous decrire vos experiences professionnels<br/>
+        <textarea name="ameliorer" id="ameliorer" rows="10" cols="50"></textarea>
+        </p>
+        <p>
+        Dans quel pays habitez-vous?
+        <select name="pays" id="pays">
+            <option value="cameroun" > cameroun </option>
+            <option value="Nigeria"> Nigeria </option>
+            <option value="Tchad"> Tchad </option>
+            <option value="Gabon"> Gabon </option>
+            </select>
+        </p>	
+        <p>
+        Veuillez indiquer la tranche d'age dans laquelle vous vous situez: <br/>
+            <div text-align="justify">
+            <input type="radio" name="age" value="plusde15" id="plusde15" /><label for="plusde15">Adolescent</label><br/>
+            <input type="radio" name="age" value="plusde30" id="plusde30" /><label for="plusde30">adulte</label><br/>
+            <input type="radio" name="age" value="plusde50" id="retraite" /> <label for="plusde50"> veillard </label> <br>
+            </div>
+            
+        </p>
+        <p>je suis un consultant</p>
+        <p> indiquer votre domaine d'expertise <br/>
+            <input type="checkbox" name="datascience" id="datascience" />
+            <label for="datascience"> datascience </label> <br/>
+            <input type="checkbox" name="cybersecurité" id="cybersecurité" />
+            <label for="cybersecurité"> cybersecurité </label><br/>
+            <input type="checkbox" name="programmeur" id="programmeur" />
+            <label for="programmeur"> programmeur</label> <br/>
+        </p> 
+        indiquer vos années d'experiences</p>
+        <p> années: <input type="text" name="années"/> </p>
+        <p>
+            Le jour de votre anniversaire svp: <br/><input type="date" name="birthday" title="VOTRE AGE REEL" onmouseover="datenow()"/>
+        </p>
+        <p>
+        indiquer vos loisirs <br/><input type="text" name="loisirs"  />
+        </p>
+        <p>
+        indiquer votre sport préféré : <br/> <input type="sport" name=" sport" />
+        </p>
+        Téléphone svp: <br/> <input type="tel" name="Orange" />
+        </p>
+        Choisissez votre navigateur Web:<br/>
+        <form action="demo_form.asp" method="get">
+        <input list="browsers" name="browser" />
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Mozillia Firefox">
+                <option value="Chrome">
+                <option value="Opéra">
+                <option value="Safari">
+            </datalist><br><br>
+            <input type="submit" name="text" value="valider" /> <input type="reset" name="rejeter" value="annuler"/>
+            </p>
+        </form>
+        <p> adresse electronique: <a href="ingeneriedesapplicationsweb@gmail.com" style>ingeneriedesapplicationsweb@gmail.com</a>
+    </body>
+</html>
